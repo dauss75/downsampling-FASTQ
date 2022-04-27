@@ -6,6 +6,7 @@ import subprocess
 import time, datetime
 import logging
 import argparse
+import re
 
 def submit_multi_qsub(step_name, step_exe, step_args, step_nproc, step_runfolder, \
                       flag_dir, flags_exe, samples):
